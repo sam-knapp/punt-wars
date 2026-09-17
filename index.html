@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>*** PUNT WARS 2026 *** AUS vs USA *** FREE PUNTER TRACKER ***</title>
+  <style>
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    @keyframes rainbow { 0%{color:#ff0000}16%{color:#ff8800}33%{color:#ffff00}50%{color:#00ff00}66%{color:#0088ff}83%{color:#8800ff}100%{color:#ff0000} }
+    @keyframes scroll-bg { 0%{background-position:0 0} 100%{background-position:56px 56px} }
+    @keyframes spin { from{transform:rotate(0)} to{transform:rotate(360deg)} }
+    @keyframes pulse-border { 0%{outline-color:#ffff00} 50%{outline-color:#ff0000} 100%{outline-color:#ffff00} }
+    @keyframes hop { 0%,100%{transform:translateY(0) rotate(-8deg)} 50%{transform:translateY(-18px) rotate(8deg)} }
+    @keyframes kickball { 0%{transform:translate(0,0) rotate(0)} 100%{transform:translate(70px,-40px) rotate(400deg)} }
+    @keyframes march { 0%{transform:translateX(-10vw)} 100%{transform:translateX(110vw)} }
+    @keyframes flap { 0%,100%{transform:translateY(0) rotate(6deg)} 50%{transform:translateY(-14px) rotate(-10deg)} }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Comic Sans MS", "Comic Sans", cursive, Geneva, sans-serif;
+      color: #ffff00;
+      background: #001133;
+      background-image:
+        repeating-linear-gradient(45deg, #001133 0 14px, #002244 14px 28px),
+        repeating-linear-gradient(-45deg, transparent 0 14px, rgba(255,255,255,0.04) 14px 28px);
+      animation: scroll-bg 8s linear infinite;
+    }
+
+    .zoo { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+    .kicker {
+      position: absolute;
+      font-size: 34px;
+      line-height: 1;
+      white-space: nowrap;
+      filter: drop-shadow(2px 2px 0 #000);
+    }
+    .kicker .critter { display: inline-block; animation: hop 0.7s ease-in-out infinite; }
+    .kicker.eagle .critter { animation-name: flap; }
+    .kicker .ball { display: inline-block; animation: kickball 0.85s linear infinite; }
+    .kicker.lane-a { top: 8%; animation: march 18s linear infinite; }
+    .kicker.lane-b { top: 22%; animation: march 22s linear infinite reverse; font-size: 28px; }
+    .kicker.lane-c { top: 48%; animation: march 16s linear infinite; font-size: 40px; }
+    .kicker.lane-d { top: 68%; animation: march 20s linear infinite reverse; }
+    .kicker.lane-e { top: 86%; animation: march 24s linear infinite; font-size: 26px; }
+
+    marquee { font-size: 18px; color: #00ff00; font-weight: bold; }
+    a { color: #00ffff; }
+    a:visited { color: #ff00ff; }
+
+    .wrap { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 8px; }
+
+    .banner {
+      text-align: center;
+      background: #000;
+      border: 6px ridge #c0c0c0;
+      box-shadow: 8px 8px 0 #ff00ff;
+      padding: 8px 8px 14px;
+      margin-bottom: 12px;
+    }
+    .banner h1 {
+      margin: 6px 0;
+      font-family: Impact, "Arial Black", sans-serif;
+      font-size: clamp(28px, 6vw, 52px);
+      letter-spacing: 2px;
+      animation: rainbow 3s linear infinite;
+      text-shadow: 3px 3px 0 #000;
+    }
+    .mascot-row { font-size: 28px; letter-spacing: 6px; margin: 4px 0; }
+    .blink { animation: blink 1s step-end infinite; }
+    .hit { color: #fff; font-size: 12px; }
+
+    .flags {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      margin: 10px 0;
+    }
+    .flag {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border: 4px outset #fff;
+      font-weight: bold;
+    }
+    .aus-flag { background: linear-gradient(#00247d 55%, #cf142b 55%); color: #fff; }
+    .usa-flag {
+      background: repeating-linear-gradient(#bf0a30, #bf0a30 6px, #fff 6px, #fff 12px);
+      color: #002868;
+      text-shadow: 1px 1px 0 #fff;
+    }
+
+    .bet-board {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 8px;
+      align-items: stretch;
+      margin: 12px 0;
+    }
+    .nation {
+      border: 5px ridge gold;
+      padding: 10px;
+      outline: 3px dashed #ffff00;
+      animation: pulse-border 1.4s linear infinite;
+    }
+    .nation.aus { background: #012169; }
+    .nation.usa { background: #9b1b30; }
+    .nation h2 { margin: 0 0 6px; font-family: Impact, sans-serif; font-size: 28px; color: #fff; }
+    .herd { font-size: 22px; letter-spacing: 4px; margin-bottom: 6px; }
+    .big-avg {
+      font-family: "Courier New", monospace;
+      font-size: clamp(40px, 8vw, 72px);
+      color: #00ff00;
+      text-shadow: 0 0 8px #00ff00;
+      margin: 4px 0;
+    }
+    .vs {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Impact, sans-serif;
+      font-size: 42px;
+      color: #ffff00;
+      text-shadow: 3px 3px 0 #ff0000;
+      animation: spin 12s linear infinite;
+    }
+    .top2 { font-size: 13px; color: #fff; min-height: 3.2em; }
+    .leader { margin-top: 8px; font-size: 18px; color: #ffff00; font-weight: bold; }
+
+    .toolbar {
+      background: #c0c0c0;
+      color: #000;
+      border: 3px outset #fff;
+      padding: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin: 10px 0;
+    }
+    button, .btn {
+      font-family: "MS Sans Serif", Tahoma, sans-serif;
+      background: #d4d0c8;
+      border: 2px outset #fff;
+      padding: 4px 10px;
+      cursor: pointer;
+    }
+    button:active { border-style: inset; }
+    .status { font-size: 12px; color: #000080; }
+
+    table.grid {
+      width: 100%;
+      border-collapse: collapse;
+      background: #000080;
+      color: #fff;
+      font-size: 13px;
+    }
+    table.grid th, table.grid td {
+      border: 1px solid #00ffff;
+      padding: 4px 6px;
+    }
+    table.grid th { background: #000; color: #ffff00; }
+    table.grid tr:nth-child(even) td { background: #000066; }
+    .ps { color: #ffa500; }
+    .other { color: #ff88ff; }
+    .num { font-family: "Courier New", monospace; text-align: right; }
+
+    .cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .panel {
+      border: 4px groove #ff00ff;
+      background: rgba(0,0,0,0.55);
+      padding: 8px;
+    }
+    .panel h3 {
+      margin: 0 0 8px;
+      font-family: Impact, sans-serif;
+      font-size: 22px;
+    }
+
+    .week-wrap { overflow-x: auto; margin-top: 8px; }
+    input.wk {
+      width: 52px;
+      background: #001100;
+      color: #00ff00;
+      border: 1px solid #00ff00;
+      font-family: "Courier New", monospace;
+      font-size: 12px;
+    }
+
+    .footer {
+      margin: 16px 0;
+      text-align: center;
+      font-size: 12px;
+      color: #fff;
+      border-top: 3px dashed #ff00ff;
+      padding-top: 10px;
+    }
+    .uc {
+      display: inline-block;
+      background: #ffff00;
+      color: #ff0000;
+      font-weight: bold;
+      padding: 2px 6px;
+      border: 2px solid #000;
+    }
+
+    @media (max-width: 800px) {
+      .bet-board, .cols { grid-template-columns: 1fr; }
+      .vs { transform: none !important; animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="zoo" aria-hidden="true">
+    <div class="kicker lane-a"><span class="critter">🦘</span><span class="ball">🏈</span></div>
+    <div class="kicker eagle lane-b"><span class="critter">🦅</span><span class="ball">🏈</span></div>
+    <div class="kicker lane-c"><span class="critter">🦘</span><span class="ball">🏈</span></div>
+    <div class="kicker eagle lane-d"><span class="critter">🦅</span><span class="ball">🏈</span></div>
+    <div class="kicker lane-e"><span class="critter">🦘</span><span class="ball">🏈</span> <span class="critter">🦘</span><span class="ball">🏈</span></div>
+  </div>
+
+  <div class="wrap">
+    <div class="banner">
+      <div class="hit">Best viewed in <b>Netscape Navigator 4.0</b> at 800x600 &nbsp;|&nbsp; <span class="blink">NEW!!!</span> WEEK 1 IS IN THE BOOKS</div>
+      <div class="mascot-row">🦘🏈 🦘🏈 🦅🏈 🦅🏈 🦘🏈 🦅🏈</div>
+      <h1>★ PUNT WARS 2026 ★</h1>
+      <div>THE OFFICIAL HOMEPAGE OF THE GREAT PUNTING WAGER</div>
+      <marquee scrollamount="8">
+        AUSTRALIA vs THE UNITED STATES OF AMERICA &nbsp;★&nbsp;
+        WEEK 1 LOCKED &nbsp;★&nbsp;
+        KANGAROOS KICKING FOOTBALLS &nbsp;★&nbsp;
+        BALD EAGLES KICKING FOOTBALLS &nbsp;★&nbsp;
+        GROSS YARDS PER PUNT ONLY &nbsp;★&nbsp;
+        TOP TWO PUNTERS PER COUNTRY &nbsp;★&nbsp;
+      </marquee>
+      <div class="hit">You are visitor number <b id="hits">000137</b> since 4 Sept 1999 (ok 2026)</div>
+    </div>
+
+    <div class="flags">
+      <div class="flag aus-flag">★ SOUTHERN CROSS ★<br>LAND OF THE DROP PUNT<br>🦘🏈 🦘🏈 🦘🏈</div>
+      <div class="flag usa-flag">★★★ STARS AND STRIPES ★★★<br>HOME OF THE SPIRAL<br>🦅🏈 🦅🏈 🦅🏈</div>
+    </div>
+
+    <div class="bet-board">
+      <div class="nation aus">
+        <h2>🦘 TEAM AUSTRALIA</h2>
+        <div class="herd">🦘🏈 🦘🏈 🦘🏈</div>
+        <div>Top-2 average (gross Y/P)</div>
+        <div class="big-avg" id="ausAvg">—</div>
+        <div class="top2" id="ausTop"></div>
+      </div>
+      <div class="vs">VS</div>
+      <div class="nation usa">
+        <h2>🦅 TEAM USA</h2>
+        <div class="herd">🦅🏈 🦅🏈 🦅🏈</div>
+        <div>Top-2 average (gross Y/P)</div>
+        <div class="big-avg" id="usaAvg">—</div>
+        <div class="top2" id="usaTop"></div>
+      </div>
+    </div>
+    <div class="leader" id="leaderLine" style="text-align:center"></div>
+
+    <div class="toolbar">
+      <button type="button" id="refreshBtn">Refresh live 2026 stats</button>
+      <button type="button" id="use2026">Show Week 1 / 2026</button>
+      <button type="button" id="use2025">Show 2025 form</button>
+      <button type="button" id="clearWeeks">Reset week boxes</button>
+      <label>Min punts to qualify <input id="minPunts" type="number" min="1" value="2" style="width:48px" title="Week 1 uses 2 so one-punt flukes do not steal the board"></label>
+      <span class="status" id="status">Week 1 2026 loaded</span>
+    </div>
+
+    <div class="panel">
+      <h3>📅 WEEK-OVER-WEEK THUNDERDOME</h3>
+      <p style="margin:0 0 8px;font-size:13px;color:#fff">
+        Week 1 is filled from official 2026 regular-season totals (only Week 1 has been played).
+        Later weeks you can type in; boxes save in this browser.
+      </p>
+      <div class="week-wrap">
+        <table class="grid" id="weekTable"></table>
+      </div>
+    </div>
+
+    <div class="cols" style="margin-top:12px">
+      <div class="panel">
+        <h3 style="color:#ffd700">🇦🇺 EVERY AUSTRALIAN PUNTER</h3>
+        <p style="font-size:12px;color:#ccc;margin-top:0">53-man + anyone who booted one in Week 1. Wishnowsky punted for New England.</p>
+        <table class="grid" id="ausTable"></table>
+      </div>
+      <div class="panel">
+        <h3 style="color:#87cefa">🇺🇸 EVERY AMERICAN 53-MAN PUNTER</h3>
+        <p style="font-size:12px;color:#ccc;margin-top:0">Plus two honorary “not USA” specialists so nobody sneaks Ireland or Belgium onto the bet.</p>
+        <table class="grid" id="usaTable"></table>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span class="uc">UNDER CONSTRUCTION</span>
+      <div class="mascot-row">🦘🏈 🦅🏈 🦘🏈 🦅🏈 🦘🏈 🦅🏈</div>
+      <p>Week 1 stats: NFL.com + Football Database 2026 regular season (as of 16 Sep 2026). Only one week has been played, so season totals = Week 1.</p>
+      <p>Whelan (Ireland) and Waitman (Belgium-born) are listed but <b>do not count for USA</b>.</p>
+      <p>© 1999–2026 PuntWars Ltd · Not affiliated with the NFL · Webmaster: <a href="mailto:webmaster@puntwars.geo">webmaster@puntwars.geo</a></p>
+      <p><a href="#">Sign guestbook</a> · <a href="#">View guestbook</a> · <a href="#">MIDI (imaginary)</a></p>
+    </div>
+  </div>
+
+<script>
+const AUS = [
+  { name: "Jeremy Crawshaw", team: "DEN", city: "Australia", status: "53", y2025: 47.6, punts2025: 75, y2026: 52.3, punts2026: 6, yds2026: 314 },
+  { name: "Tory Taylor", team: "CHI", city: "Melbourne", status: "53", y2025: 47.8, punts2025: 60, y2026: 51.0, punts2026: 2, yds2026: 102 },
+  { name: "Cameron Johnston", team: "PIT", city: "Geelong", status: "53", y2025: 44.5, punts2025: 11, y2026: 48.5, punts2026: 4, yds2026: 194 },
+  { name: "Michael Dickson", team: "SEA", city: "Sydney", status: "53", y2025: 49.0, punts2025: 52, y2026: 45.4, punts2026: 5, yds2026: 227 },
+  { name: "Mitch Wishnowsky", team: "NE", city: "Perth", status: "53", y2025: null, punts2025: 0, y2026: 44.2, punts2026: 4, yds2026: 177, note: "Punted Week 1 · Baringer out" },
+  { name: "Brett Thorson", team: "MIN", city: "Australia", status: "53", y2025: null, punts2025: 0, y2026: 40.2, punts2026: 4, yds2026: 161, note: "Rookie" },
+  { name: "Jack Bouwmeester", team: "LAR", city: "Australia", status: "PS", y2025: null, punts2025: 0, y2026: null, punts2026: 0, yds2026: 0, note: "Practice squad" }
+];
+
+const USA = [
+  { name: "A.J. Cole", team: "LV", y2025: 47.6, punts2025: 71, y2026: 63.3, punts2026: 3, yds2026: 190 },
+  { name: "Matt Araiza", team: "KC", y2025: 47.6, punts2025: 56, y2026: 54.5, punts2026: 4, yds2026: 218 },
+  { name: "Tommy Doman Jr.", team: "BUF", y2025: null, punts2025: 0, y2026: 54.5, punts2026: 2, yds2026: 109, note: "Rookie" },
+  { name: "Logan Cooke", team: "JAX", y2025: 48.0, punts2025: 60, y2026: 54.0, punts2026: 2, yds2026: 108 },
+  { name: "Tress Way", team: "WAS", y2025: 47.3, punts2025: 56, y2026: 53.0, punts2026: 6, yds2026: 318 },
+  { name: "Blake Gillikin", team: "ARI", y2025: 51.7, punts2025: 22, y2026: 52.7, punts2026: 3, yds2026: 158 },
+  { name: "Rigoberto Sanchez", team: "IND", y2025: 48.8, punts2025: 44, y2026: 52.6, punts2026: 5, yds2026: 263 },
+  { name: "Kai Kroeger", team: "HOU", y2025: 44.8, punts2025: 56, y2026: 52.0, punts2026: 4, yds2026: 208 },
+  { name: "Braden Mann", team: "PHI", y2025: 49.9, punts2025: 72, y2026: 51.6, punts2026: 7, yds2026: 361 },
+  { name: "Ryan Rehkow", team: "CIN", y2025: 50.5, punts2025: 65, y2026: 51.0, punts2026: 1, yds2026: 51 },
+  { name: "JK Scott", team: "LAC", y2025: 47.9, punts2025: 60, y2026: 49.5, punts2026: 3, yds2026: 99 },
+  { name: "Sam Martin", team: "CAR", y2025: 47.2, punts2025: 56, y2026: 49.0, punts2026: 3, yds2026: 147 },
+  { name: "Ethan Evans", team: "LAR", y2025: 46.3, punts2025: 50, y2026: 48.3, punts2026: 3, yds2026: 145 },
+  { name: "Jake Bailey", team: "ATL", y2025: 47.7, punts2025: 63, y2026: 48.2, punts2026: 6, yds2026: 289 },
+  { name: "Bryan Anger", team: "DAL", y2025: 48.7, punts2025: 41, y2026: 48.0, punts2026: 2, yds2026: 96 },
+  { name: "Jack Fox", team: "DET", y2025: 46.6, punts2025: 56, y2026: 48.0, punts2026: 7, yds2026: 336 },
+  { name: "Ryan Wright", team: "NO", y2025: 49.0, punts2025: 65, y2026: 47.6, punts2026: 5, yds2026: 238 },
+  { name: "Ryan Eckley", team: "BAL", y2025: null, punts2025: 0, y2026: 46.7, punts2026: 3, yds2026: 140, note: "Rookie" },
+  { name: "Tommy Townsend", team: "TEN", y2025: 47.6, punts2025: 72, y2026: 46.6, punts2026: 7, yds2026: 326 },
+  { name: "Austin McNamara", team: "NYJ", y2025: 46.7, punts2025: 71, y2026: 46.3, punts2026: 3, yds2026: 139 },
+  { name: "Jordan Stout", team: "NYG", y2025: 50.1, punts2025: 53, y2026: 46.0, punts2026: 1, yds2026: 46 },
+  { name: "Bradley Pinion", team: "MIA", y2025: 45.1, punts2025: 64, y2026: 45.8, punts2026: 4, yds2026: 183 },
+  { name: "Corey Bojorquez", team: "CLE", y2025: 45.8, punts2025: 91, y2026: 43.3, punts2026: 3, yds2026: 130 },
+  { name: "Riley Dixon", team: "TB", y2025: 44.7, punts2025: 63, y2026: null, punts2026: 0, yds2026: 0, note: "No Week 1 punts listed" },
+  { name: "Bryce Baringer", team: "NE", y2025: 47.4, punts2025: 51, y2026: null, punts2026: 0, yds2026: 0, note: "Did not punt Week 1" }
+];
+
+const OTHER = [
+  { name: "Corliss Waitman", team: "SF", nation: "Belgium / Suriname", y2025: 45.5, punts2025: 62, y2026: 47.0, punts2026: 2, yds2026: 94, note: "Does NOT count for USA" },
+  { name: "Daniel Whelan", team: "GB", nation: "Ireland", y2025: 51.7, punts2025: 49, y2026: 38.7, punts2026: 3, yds2026: 116, note: "Does NOT count for USA" }
+];
+
+const WEEK1 = { aus: "51.7", usa: "58.9", margin: "-7.2" };
+
+const ESPN_URLS = [
+  "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2026/types/2/leaders?limit=100",
+  "https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/statistics/byathlete?region=us&lang=en&contentorigin=espn&isqualified=false&page=1&limit=100&sort=punting.avg%3Adesc&season=2026&seasontype=2"
+];
+
+const store = {
+  get weeks() {
+    try { return JSON.parse(localStorage.getItem("puntwars-weeks") || "{}"); } catch { return {}; }
+  },
+  set weeks(v) { localStorage.setItem("puntwars-weeks", JSON.stringify(v)); }
+};
+
+function seedWeek1() {
+  const all = store.weeks;
+  all["aus-1"] = WEEK1.aus;
+  all["usa-1"] = WEEK1.usa;
+  all["margin-1"] = WEEK1.margin;
+  store.weeks = all;
+}
+
+function fmt(n) {
+  if (n == null || Number.isNaN(n)) return "—";
+  return (Math.round(n * 10) / 10).toFixed(1);
+}
+
+function topTwo(players, avgKey, puntsKey, minPunts) {
+  const ok = players.filter(p => p[avgKey] != null && (p[puntsKey] || 0) >= minPunts)
+    .sort((a, b) => b[avgKey] - a[avgKey]);
+  const pair = ok.slice(0, 2);
+  if (pair.length < 2) return { avg: null, pair };
+  return { avg: (pair[0][avgKey] + pair[1][avgKey]) / 2, pair };
+}
+
+function renderLists() {
+  const ausBody = AUS.map(p => `
+    <tr>
+      <td>${p.name}${p.status === "PS" ? ' <span class="ps">[PS]</span>' : ""}</td>
+      <td>${p.team}</td>
+      <td>${p.city}</td>
+      <td class="num">${p.y2026 != null ? fmt(p.y2026) : "—"}</td>
+      <td class="num">${p.punts2026 || 0}</td>
+      <td class="num">${p.y2025 != null ? fmt(p.y2025) : "—"}</td>
+    </tr>`).join("");
+  document.getElementById("ausTable").innerHTML = `
+    <tr><th>Punter</th><th>Team</th><th>From</th><th>W1 Y/P</th><th>W1 P</th><th>2025 Y/P</th></tr>${ausBody}`;
+
+  const usaRows = USA.map(p => `
+    <tr>
+      <td>${p.name}</td><td>${p.team}</td>
+      <td class="num">${p.y2026 != null ? fmt(p.y2026) : "—"}</td>
+      <td class="num">${p.punts2026 || 0}</td>
+      <td>${p.note || ""}</td>
+    </tr>`).join("");
+  const otherRows = OTHER.map(p => `
+    <tr>
+      <td class="other">${p.name}</td><td>${p.team}</td>
+      <td class="num">${p.y2026 != null ? fmt(p.y2026) : "—"}</td>
+      <td class="num">${p.punts2026 || 0}</td>
+      <td class="other">${p.nation} · ${p.note}</td>
+    </tr>`).join("");
+  document.getElementById("usaTable").innerHTML = `
+    <tr><th>Punter</th><th>Team</th><th>W1 Y/P</th><th>W1 P</th><th>Notes</th></tr>${usaRows}${otherRows}`;
+}
+
+function renderScore(mode) {
+  const min = Number(document.getElementById("minPunts").value) || 1;
+  const avgKey = mode === "2026" ? "y2026" : "y2025";
+  const puntKey = mode === "2026" ? "punts2026" : "punts2025";
+  const a = topTwo(AUS.filter(p => p.status === "53" || (p.punts2026 || 0) > 0), avgKey, puntKey, min);
+  const u = topTwo(USA, avgKey, puntKey, min);
+  document.getElementById("ausAvg").textContent = fmt(a.avg);
+  document.getElementById("usaAvg").textContent = fmt(u.avg);
+  document.getElementById("ausTop").innerHTML = a.pair.map(p =>
+    `${p.name} (${p.team}) ${fmt(p[avgKey])} <i>${p[puntKey] || 0} punts</i>`).join("<br>") || "Need two qualifying Aussie punters";
+  document.getElementById("usaTop").innerHTML = u.pair.map(p =>
+    `${p.name} (${p.team}) ${fmt(p[avgKey])} <i>${p[puntKey] || 0} punts</i>`).join("<br>") || "Need two qualifying USA punters";
+
+  const line = document.getElementById("leaderLine");
+  if (a.avg == null || u.avg == null) {
+    line.textContent = "★ Not enough qualifying punts ★";
+    return;
+  }
+  const diff = Math.abs(a.avg - u.avg);
+  if (a.avg > u.avg) line.textContent = `★ AUSTRALIA LEADS by ${fmt(diff)} yards ★  G'day, suckers.`;
+  else if (u.avg > a.avg) line.textContent = `★ AMERICA LEADS by ${fmt(diff)} yards ★  USA! USA! USA!`;
+  else line.textContent = "★ DEAD HEAT — call the UN ★";
+}
+
+function renderWeeks() {
+  const saved = store.weeks;
+  let head = "<tr><th>Nation</th>";
+  for (let w = 1; w <= 18; w++) head += `<th>W${w}</th>`;
+  head += "<th>Avg of entered weeks</th></tr>";
+
+  function row(nation, key) {
+    let cells = `<tr><td>${nation}</td>`;
+    const vals = [];
+    for (let w = 1; w <= 18; w++) {
+      const id = `${key}-${w}`;
+      const v = saved[id] ?? "";
+      if (v !== "" && !Number.isNaN(Number(v))) vals.push(Number(v));
+      cells += `<td><input class="wk" data-id="${id}" value="${v}" placeholder="—"></td>`;
+    }
+    const avg = vals.length ? vals.reduce((s, n) => s + n, 0) / vals.length : null;
+    cells += `<td class="num">${fmt(avg)}</td></tr>`;
+    return cells;
+  }
+
+  document.getElementById("weekTable").innerHTML =
+    head + row("🇦🇺 AUS top-2 avg", "aus") + row("🇺🇸 USA top-2 avg", "usa") + row("Margin (AUS−USA)", "margin");
+
+  document.querySelectorAll("input.wk").forEach(inp => {
+    inp.addEventListener("change", () => {
+      const all = store.weeks;
+      all[inp.dataset.id] = inp.value;
+      store.weeks = all;
+      renderWeeks();
+    });
+  });
+}
+
+async function fetchLive() {
+  const status = document.getElementById("status");
+  status.textContent = "Dialing up ESPN on 56k...";
+  for (const url of ESPN_URLS) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(res.status);
+      const data = await res.json();
+      const applied = applyEspn(data);
+      if (applied > 0) {
+        status.textContent = `Pulled ${applied} 2026 punting lines from ESPN.`;
+        renderScore("2026");
+        renderLists();
+        return;
+      }
+    } catch (e) {
+      status.textContent = "ESPN blocked this browser. Week 1 numbers already baked in. " + e.message;
+    }
+  }
+}
+
+function applyEspn(data) {
+  let n = 0;
+  const athletes = [];
+  const cats = data.categories || data.leaders?.categories || [];
+  for (const c of cats) {
+    const name = (c.name || c.abbreviation || "").toLowerCase();
+    if (!name.includes("punt") && !name.includes("punting")) continue;
+    for (const item of (c.leaders || [])) {
+      athletes.push({
+        name: item.athlete?.displayName || item.athlete?.fullName,
+        avg: Number(item.value)
+      });
+    }
+  }
+  const rows = data.athletes || [];
+  for (const row of rows) {
+    const name = row.athlete?.displayName;
+    const stats = row.categories?.find(c => /punt/i.test(c.name || "")) || row.categories?.[0];
+    const avg = Number(stats?.stats?.find(s => /avg|average/i.test(s.name || s.abbreviation || ""))?.value);
+    const punts = Number(stats?.stats?.find(s => /punt/i.test(s.abbreviation || "") && !/avg|yd/i.test(s.abbreviation || ""))?.value);
+    if (name) athletes.push({ name, avg, punts });
+  }
+  const all = [...AUS, ...USA];
+  for (const a of athletes) {
+    if (!a.name || a.avg == null || Number.isNaN(a.avg)) continue;
+    const hit = all.find(p => p.name.toLowerCase() === a.name.toLowerCase()
+      || (a.name.toLowerCase().includes(p.name.split(" ").pop().toLowerCase())
+        && a.name.toLowerCase().includes(p.name.split(" ")[0].toLowerCase())));
+    if (hit) {
+      hit.y2026 = a.avg;
+      hit.punts2026 = a.punts || hit.punts2026 || 1;
+      n++;
+    }
+  }
+  return n;
+}
+
+document.getElementById("hits").textContent = String(100000 + Math.floor(Math.random() * 899999));
+seedWeek1();
+renderLists();
+renderWeeks();
+renderScore("2026");
+document.getElementById("status").textContent =
+  "Week 1 2026 from NFL.com / Football Database. Min 2 punts. Cole + Araiza vs Crawshaw + Taylor.";
+
+document.getElementById("refreshBtn").onclick = fetchLive;
+document.getElementById("use2026").onclick = () => {
+  document.getElementById("minPunts").value = 2;
+  renderScore("2026");
+  document.getElementById("status").textContent = "Showing 2026 Week 1 gross averages (min 2 punts).";
+};
+document.getElementById("use2025").onclick = () => {
+  document.getElementById("minPunts").value = 40;
+  renderScore("2025");
+  document.getElementById("status").textContent = "Showing 2025 regular-season gross averages (min 40 punts).";
+};
+document.getElementById("clearWeeks").onclick = () => { store.weeks = {}; seedWeek1(); renderWeeks(); };
+document.getElementById("minPunts").onchange = () => renderScore("2026");
+</script>
+</body>
+</html>
