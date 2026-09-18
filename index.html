@@ -208,8 +208,34 @@
       border: 2px solid #000;
     }
 
+    .facts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 12px 0;
+    }
+    .fact-card {
+      border: 4px ridge #ffff00;
+      background: #000;
+      padding: 10px;
+      min-height: 140px;
+    }
+    .fact-card.aus { border-color: #ffd700; }
+    .fact-card.usa { border-color: #87cefa; }
+    .fact-card h3 {
+      margin: 0 0 8px;
+      font-family: Impact, sans-serif;
+      font-size: 18px;
+    }
+    .fact-body {
+      color: #00ff00;
+      font-size: 14px;
+      min-height: 4.5em;
+    }
+    .fact-nav { margin-top: 8px; }
+
     @media (max-width: 800px) {
-      .bet-board, .cols { grid-template-columns: 1fr; }
+      .bet-board, .cols, .facts { grid-template-columns: 1fr; }
       .vs { transform: none !important; animation: none; }
     }
   </style>
@@ -225,13 +251,13 @@
 
   <div class="wrap">
     <div class="banner">
-      <div class="hit">Best viewed in <b>Netscape Navigator 4.0</b> at 800x600 &nbsp;|&nbsp; <span class="blink">NEW!!!</span> WEEK 1 IS IN THE BOOKS</div>
+      <div class="hit">Best viewed in <b>Netscape Navigator 4.0</b> at 800x600 &nbsp;|&nbsp; <span class="blink">NEW!!!</span> WEEK 2 TNF IS IN THE BOOKS</div>
       <div class="mascot-row">🦘🏈 🦘🏈 🦅🏈 🦅🏈 🦘🏈 🦅🏈</div>
       <h1>★ PUNT WARS 2026 ★</h1>
       <div>THE OFFICIAL HOMEPAGE OF THE GREAT PUNTING WAGER</div>
       <marquee scrollamount="8">
         AUSTRALIA vs THE UNITED STATES OF AMERICA &nbsp;★&nbsp;
-        WEEK 1 LOCKED &nbsp;★&nbsp;
+        WEEK 2 TNF: BILLS 41 LIONS 31 &nbsp;★&nbsp;
         KANGAROOS KICKING FOOTBALLS &nbsp;★&nbsp;
         BALD EAGLES KICKING FOOTBALLS &nbsp;★&nbsp;
         GROSS YARDS PER PUNT ONLY &nbsp;★&nbsp;
@@ -264,9 +290,22 @@
     </div>
     <div class="leader" id="leaderLine" style="text-align:center"></div>
 
+    <div class="facts">
+      <div class="fact-card aus">
+        <h3 style="color:#ffd700">🦘 DID YOU KNOW??? AUSTRALIA</h3>
+        <div class="fact-body" id="ausFact"></div>
+        <div class="fact-nav"><button type="button" id="nextAusFact">Another Aussie fact</button></div>
+      </div>
+      <div class="fact-card usa">
+        <h3 style="color:#87cefa">🦅 DID YOU KNOW??? USA</h3>
+        <div class="fact-body" id="usaFact"></div>
+        <div class="fact-nav"><button type="button" id="nextUsaFact">Another American fact</button></div>
+      </div>
+    </div>
+
     <div class="toolbar">
       <button type="button" id="refreshBtn">Refresh live 2026 stats</button>
-      <button type="button" id="use2026">Show Week 1 / 2026</button>
+      <button type="button" id="use2026">Show 2026 season</button>
       <button type="button" id="use2025">Show 2025 form</button>
       <button type="button" id="clearWeeks">Reset week boxes</button>
       <label>Min punts to qualify <input id="minPunts" type="number" min="1" value="2" style="width:48px" title="Week 1 uses 2 so one-punt flukes do not steal the board"></label>
@@ -276,7 +315,7 @@
     <div class="panel">
       <h3>📅 WEEK-OVER-WEEK THUNDERDOME</h3>
       <p style="margin:0 0 8px;font-size:13px;color:#fff">
-        Week 1 is filled from official 2026 regular-season totals (only Week 1 has been played).
+        Week 1 is the full slate. Week 2 so far is Thursday Night only (Lions at Bills) — no Aussies punted.
         Later weeks you can type in; boxes save in this browser.
       </p>
       <div class="week-wrap">
@@ -287,7 +326,7 @@
     <div class="cols" style="margin-top:12px">
       <div class="panel">
         <h3 style="color:#ffd700">🇦🇺 EVERY AUSTRALIAN PUNTER</h3>
-        <p style="font-size:12px;color:#ccc;margin-top:0">53-man + anyone who booted one in Week 1. Wishnowsky punted for New England.</p>
+        <p style="font-size:12px;color:#ccc;margin-top:0">53-man + anyone who has punted in 2026. No Aussie on TNF Week 2.</p>
         <table class="grid" id="ausTable"></table>
       </div>
       <div class="panel">
@@ -300,7 +339,7 @@
     <div class="footer">
       <span class="uc">UNDER CONSTRUCTION</span>
       <div class="mascot-row">🦘🏈 🦅🏈 🦘🏈 🦅🏈 🦘🏈 🦅🏈</div>
-      <p>Week 1 stats: NFL.com + Football Database 2026 regular season (as of 16 Sep 2026). Only one week has been played, so season totals = Week 1.</p>
+      <p>Stats: NFL.com 2026 regular season through TNF Week 2 (17 Sep 2026). Lions at Bills: Fox 4/206 (51.5), Doman 2/83 (41.5). Bills 41, Lions 31.</p>
       <p>Whelan (Ireland) and Waitman (Belgium-born) are listed but <b>do not count for USA</b>.</p>
       <p>© 1999–2026 PuntWars Ltd · Not affiliated with the NFL · Webmaster: <a href="mailto:webmaster@puntwars.geo">webmaster@puntwars.geo</a></p>
       <p><a href="#">Sign guestbook</a> · <a href="#">View guestbook</a> · <a href="#">MIDI (imaginary)</a></p>
@@ -321,7 +360,7 @@ const AUS = [
 const USA = [
   { name: "A.J. Cole", team: "LV", y2025: 47.6, punts2025: 71, y2026: 63.3, punts2026: 3, yds2026: 190 },
   { name: "Matt Araiza", team: "KC", y2025: 47.6, punts2025: 56, y2026: 54.5, punts2026: 4, yds2026: 218 },
-  { name: "Tommy Doman Jr.", team: "BUF", y2025: null, punts2025: 0, y2026: 54.5, punts2026: 2, yds2026: 109, note: "Rookie" },
+  { name: "Tommy Doman Jr.", team: "BUF", y2025: null, punts2025: 0, y2026: 48.0, punts2026: 4, yds2026: 192, note: "Rookie · TNF W2: 2/83 (41.5)" },
   { name: "Logan Cooke", team: "JAX", y2025: 48.0, punts2025: 60, y2026: 54.0, punts2026: 2, yds2026: 108 },
   { name: "Tress Way", team: "WAS", y2025: 47.3, punts2025: 56, y2026: 53.0, punts2026: 6, yds2026: 318 },
   { name: "Blake Gillikin", team: "ARI", y2025: 51.7, punts2025: 22, y2026: 52.7, punts2026: 3, yds2026: 158 },
@@ -334,7 +373,7 @@ const USA = [
   { name: "Ethan Evans", team: "LAR", y2025: 46.3, punts2025: 50, y2026: 48.3, punts2026: 3, yds2026: 145 },
   { name: "Jake Bailey", team: "ATL", y2025: 47.7, punts2025: 63, y2026: 48.2, punts2026: 6, yds2026: 289 },
   { name: "Bryan Anger", team: "DAL", y2025: 48.7, punts2025: 41, y2026: 48.0, punts2026: 2, yds2026: 96 },
-  { name: "Jack Fox", team: "DET", y2025: 46.6, punts2025: 56, y2026: 48.0, punts2026: 7, yds2026: 336 },
+  { name: "Jack Fox", team: "DET", y2025: 46.6, punts2025: 56, y2026: 49.3, punts2026: 11, yds2026: 542, note: "TNF W2: 4/206 (51.5)" },
   { name: "Ryan Wright", team: "NO", y2025: 49.0, punts2025: 65, y2026: 47.6, punts2026: 5, yds2026: 238 },
   { name: "Ryan Eckley", team: "BAL", y2025: null, punts2025: 0, y2026: 46.7, punts2026: 3, yds2026: 140, note: "Rookie" },
   { name: "Tommy Townsend", team: "TEN", y2025: 47.6, punts2025: 72, y2026: 46.6, punts2026: 7, yds2026: 326 },
@@ -352,6 +391,7 @@ const OTHER = [
 ];
 
 const WEEK1 = { aus: "51.7", usa: "58.9", margin: "-7.2" };
+const WEEK2 = { aus: "", usa: "46.5", margin: "" };
 
 const ESPN_URLS = [
   "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2026/types/2/leaders?limit=100",
@@ -365,11 +405,14 @@ const store = {
   set weeks(v) { localStorage.setItem("puntwars-weeks", JSON.stringify(v)); }
 };
 
-function seedWeek1() {
+function seedOfficialWeeks() {
   const all = store.weeks;
   all["aus-1"] = WEEK1.aus;
   all["usa-1"] = WEEK1.usa;
   all["margin-1"] = WEEK1.margin;
+  all["aus-2"] = WEEK2.aus;
+  all["usa-2"] = WEEK2.usa;
+  all["margin-2"] = WEEK2.margin;
   store.weeks = all;
 }
 
@@ -397,7 +440,7 @@ function renderLists() {
       <td class="num">${p.y2025 != null ? fmt(p.y2025) : "—"}</td>
     </tr>`).join("");
   document.getElementById("ausTable").innerHTML = `
-    <tr><th>Punter</th><th>Team</th><th>From</th><th>W1 Y/P</th><th>W1 P</th><th>2025 Y/P</th></tr>${ausBody}`;
+    <tr><th>Punter</th><th>Team</th><th>From</th><th>2026 Y/P</th><th>2026 P</th><th>2025 Y/P</th></tr>${ausBody}`;
 
   const usaRows = USA.map(p => `
     <tr>
@@ -414,7 +457,7 @@ function renderLists() {
       <td class="other">${p.nation} · ${p.note}</td>
     </tr>`).join("");
   document.getElementById("usaTable").innerHTML = `
-    <tr><th>Punter</th><th>Team</th><th>W1 Y/P</th><th>W1 P</th><th>Notes</th></tr>${usaRows}${otherRows}`;
+    <tr><th>Punter</th><th>Team</th><th>2026 Y/P</th><th>2026 P</th><th>Notes</th></tr>${usaRows}${otherRows}`;
 }
 
 function renderScore(mode) {
@@ -532,26 +575,70 @@ function applyEspn(data) {
   return n;
 }
 
+const AUS_FACTS = [
+  "Australia is the only country that is also a continent. Take that, geography.",
+  "There are more kangaroos in Australia than people. The drop-punt lobby is huge.",
+  "The Aussie-rules DROP PUNT is why so many NFL punters are from Down Under. Darren Bennett opened the floodgates in the 1990s.",
+  "Uluru is taller than the Eiffel Tower if you count the rock you cannot see underground. Scientists: please don't email us.",
+  "The Great Barrier Reef is so big you can see it from space. Unlike most NFL punts.",
+  "Vegemite is not chocolate. Tourists learn this the hard way, like a shanked snap.",
+  "Australia drove on the left, invented the rotary clothesline, and still produces more NFL punters per capita than Texas.",
+  "Sydney Opera House has more than 1 million tiles. None of them are footballs. Missed opportunity.",
+  "A group of kangaroos is a MOB. A group of Aussie NFL punters is a pipeline.",
+  "The world's longest golf course is in Australia (Nullarbor Links). Punting distance: still a moral victory.",
+  "Michael Dickson was a fifth-round pick and now owns a Super Bowl ring. Not bad for a sport they barely play at recess.",
+  "Australia has venomous snakes, spiders, octopuses, and Cameron Johnston's hang time."
+];
+
+const USA_FACTS = [
+  "The bald eagle was chosen in 1782. Ben Franklin really did prefer the turkey. The turkey did not make the Pro Bowl.",
+  "The NFL was founded in 1920 in Canton, Ohio. Punters have been underappreciated since approximately 1921.",
+  "The U.S. flag has 50 stars and 13 stripes. The stripes are the original colonies. The stars are not punters. Yet.",
+  "The Grand Canyon is up to 18 miles wide. That's about 317 football fields. Bring a lot of hang time.",
+  "Americans eat roughly 50 billion burgers a year. This website has eaten zero, which is un-American.",
+  "The Statue of Liberty was a gift from France. The spiral punt was a gift from physics.",
+  "There are 32 NFL teams and only one Super Bowl trophy a year. Math is cruel. Punters still only get one snap per drive.",
+  "Route 66 ran 2,448 miles. A 50-yard punt would need to be repeated 86,266 times. Do not try this on I-40.",
+  "The bald eagle's nest can weigh more than a ton. That is several A.J. Cole punts, stacked spiritually.",
+  "Yellowstone sits on a supervolcano. The USA still showed up for Week 1 with a 63.3-yard A.J. Cole bomb.",
+  "The U.S. has won the most Olympic gold medals all time. Australia has the drop punt. We call this a cultural exchange.",
+  "NASA put humans on the Moon. They still cannot agree whether net punting or gross punting is the 'real' stat."
+];
+
+let ausFactI = 0;
+let usaFactI = 0;
+
+function showFacts() {
+  document.getElementById("ausFact").textContent = "★ " + AUS_FACTS[ausFactI % AUS_FACTS.length];
+  document.getElementById("usaFact").textContent = "★ " + USA_FACTS[usaFactI % USA_FACTS.length];
+}
+
 document.getElementById("hits").textContent = String(100000 + Math.floor(Math.random() * 899999));
-seedWeek1();
+ausFactI = Math.floor(Math.random() * AUS_FACTS.length);
+usaFactI = Math.floor(Math.random() * USA_FACTS.length);
+showFacts();
+document.getElementById("nextAusFact").onclick = () => { ausFactI++; showFacts(); };
+document.getElementById("nextUsaFact").onclick = () => { usaFactI++; showFacts(); };
+setInterval(() => { ausFactI++; usaFactI++; showFacts(); }, 12000);
+seedOfficialWeeks();
 renderLists();
 renderWeeks();
 renderScore("2026");
 document.getElementById("status").textContent =
-  "Week 1 2026 from NFL.com / Football Database. Min 2 punts. Cole + Araiza vs Crawshaw + Taylor.";
+  "Through TNF Week 2 (Bills 41, Lions 31). Season still Cole + Araiza vs Crawshaw + Taylor. Fox 49.3, Doman 48.0.";
 
 document.getElementById("refreshBtn").onclick = fetchLive;
 document.getElementById("use2026").onclick = () => {
   document.getElementById("minPunts").value = 2;
   renderScore("2026");
-  document.getElementById("status").textContent = "Showing 2026 Week 1 gross averages (min 2 punts).";
+  document.getElementById("status").textContent = "Showing 2026 season gross averages through TNF Week 2 (min 2 punts).";
 };
 document.getElementById("use2025").onclick = () => {
   document.getElementById("minPunts").value = 40;
   renderScore("2025");
   document.getElementById("status").textContent = "Showing 2025 regular-season gross averages (min 40 punts).";
 };
-document.getElementById("clearWeeks").onclick = () => { store.weeks = {}; seedWeek1(); renderWeeks(); };
+document.getElementById("clearWeeks").onclick = () => { store.weeks = {}; seedOfficialWeeks(); renderWeeks(); };
 document.getElementById("minPunts").onchange = () => renderScore("2026");
 </script>
 </body>
