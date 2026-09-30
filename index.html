@@ -251,13 +251,13 @@
 
   <div class="wrap">
     <div class="banner">
-      <div class="hit">Best viewed in <b>Netscape Navigator 4.0</b> at 800x600 &nbsp;|&nbsp; <span class="blink">NEW!!!</span> WEEK 2 TNF IS IN THE BOOKS</div>
+      <div class="hit">Best viewed in <b>Netscape Navigator 4.0</b> at 800x600 &nbsp;|&nbsp; <span class="blink">NEW!!!</span> WEEK 3 IS IN THE BOOKS</div>
       <div class="mascot-row">🦘🏈 🦘🏈 🦅🏈 🦅🏈 🦘🏈 🦅🏈</div>
       <h1>★ PUNT WARS 2026 ★</h1>
       <div>THE OFFICIAL HOMEPAGE OF THE GREAT PUNTING WAGER</div>
       <marquee scrollamount="8">
         AUSTRALIA vs THE UNITED STATES OF AMERICA &nbsp;★&nbsp;
-        WEEK 2 TNF: BILLS 41 LIONS 31 &nbsp;★&nbsp;
+        THROUGH WEEK 3 &nbsp;★&nbsp;
         KANGAROOS KICKING FOOTBALLS &nbsp;★&nbsp;
         BALD EAGLES KICKING FOOTBALLS &nbsp;★&nbsp;
         GROSS YARDS PER PUNT ONLY &nbsp;★&nbsp;
@@ -309,14 +309,13 @@
       <button type="button" id="use2025">Show 2025 form</button>
       <button type="button" id="clearWeeks">Reset week boxes</button>
       <label>Min punts to qualify <input id="minPunts" type="number" min="1" value="2" style="width:48px" title="Week 1 uses 2 so one-punt flukes do not steal the board"></label>
-      <span class="status" id="status">Week 1 2026 loaded</span>
+      <span class="status" id="status">Week 2 2026 loaded</span>
     </div>
 
     <div class="panel">
       <h3>📅 WEEK-OVER-WEEK THUNDERDOME</h3>
       <p style="margin:0 0 8px;font-size:13px;color:#fff">
-        Week 1 is the full slate. Week 2 so far is Thursday Night only (Lions at Bills) — no Aussies punted.
-        Later weeks you can type in; boxes save in this browser.
+        Weeks 1–3 are filled from NFL.com (30 Sep 2026). Later weeks you can type in; boxes save in this browser.
       </p>
       <div class="week-wrap">
         <table class="grid" id="weekTable"></table>
@@ -326,7 +325,7 @@
     <div class="cols" style="margin-top:12px">
       <div class="panel">
         <h3 style="color:#ffd700">🇦🇺 EVERY AUSTRALIAN PUNTER</h3>
-        <p style="font-size:12px;color:#ccc;margin-top:0">53-man + anyone who has punted in 2026. No Aussie on TNF Week 2.</p>
+        <p style="font-size:12px;color:#ccc;margin-top:0">53-man + anyone who has punted in 2026. Season leaders: Taylor 50.2, Crawshaw 49.9.</p>
         <table class="grid" id="ausTable"></table>
       </div>
       <div class="panel">
@@ -339,7 +338,7 @@
     <div class="footer">
       <span class="uc">UNDER CONSTRUCTION</span>
       <div class="mascot-row">🦘🏈 🦅🏈 🦘🏈 🦅🏈 🦘🏈 🦅🏈</div>
-      <p>Stats: NFL.com 2026 regular season through TNF Week 2 (17 Sep 2026). Lions at Bills: Fox 4/206 (51.5), Doman 2/83 (41.5). Bills 41, Lions 31.</p>
+      <p>Stats: NFL.com 2026 regular season through Week 3 (30 Sep 2026).</p>
       <p>Whelan (Ireland) and Waitman (Belgium-born) are listed but <b>do not count for USA</b>.</p>
       <p>© 1999–2026 PuntWars Ltd · Not affiliated with the NFL · Webmaster: <a href="mailto:webmaster@puntwars.geo">webmaster@puntwars.geo</a></p>
       <p><a href="#">Sign guestbook</a> · <a href="#">View guestbook</a> · <a href="#">MIDI (imaginary)</a></p>
@@ -348,50 +347,51 @@
 
 <script>
 const AUS = [
-  { name: "Jeremy Crawshaw", team: "DEN", city: "Australia", status: "53", y2025: 47.6, punts2025: 75, y2026: 52.3, punts2026: 6, yds2026: 314 },
-  { name: "Tory Taylor", team: "CHI", city: "Melbourne", status: "53", y2025: 47.8, punts2025: 60, y2026: 51.0, punts2026: 2, yds2026: 102 },
-  { name: "Cameron Johnston", team: "PIT", city: "Geelong", status: "53", y2025: 44.5, punts2025: 11, y2026: 48.5, punts2026: 4, yds2026: 194 },
-  { name: "Michael Dickson", team: "SEA", city: "Sydney", status: "53", y2025: 49.0, punts2025: 52, y2026: 45.4, punts2026: 5, yds2026: 227 },
-  { name: "Mitch Wishnowsky", team: "NE", city: "Perth", status: "53", y2025: null, punts2025: 0, y2026: 44.2, punts2026: 4, yds2026: 177, note: "Punted Week 1 · Baringer out" },
-  { name: "Brett Thorson", team: "MIN", city: "Australia", status: "53", y2025: null, punts2025: 0, y2026: 40.2, punts2026: 4, yds2026: 161, note: "Rookie" },
+  { name: "Tory Taylor", team: "CHI", city: "Melbourne", status: "53", y2025: 47.8, punts2025: 60, y2026: 50.2, punts2026: 8, yds2026: 402 },
+  { name: "Jeremy Crawshaw", team: "DEN", city: "Australia", status: "53", y2025: 47.6, punts2025: 75, y2026: 49.9, punts2026: 14, yds2026: 699 },
+  { name: "Cameron Johnston", team: "PIT", city: "Geelong", status: "53", y2025: 44.5, punts2025: 11, y2026: 48.5, punts2026: 13, yds2026: 630 },
+  { name: "Mitch Wishnowsky", team: "NE", city: "Perth", status: "53", y2025: null, punts2025: 0, y2026: 46.8, punts2026: 10, yds2026: 468, note: "NE starter · W3: 2/106 (53.0)" },
+  { name: "Brett Thorson", team: "MIN", city: "Australia", status: "53", y2025: null, punts2025: 0, y2026: 45.8, punts2026: 10, yds2026: 458, note: "Rookie · no Week 3 punts" },
+  { name: "Michael Dickson", team: "SEA", city: "Sydney", status: "53", y2025: 49.0, punts2025: 52, y2026: 44.9, punts2026: 11, yds2026: 494 },
   { name: "Jack Bouwmeester", team: "LAR", city: "Australia", status: "PS", y2025: null, punts2025: 0, y2026: null, punts2026: 0, yds2026: 0, note: "Practice squad" }
 ];
 
 const USA = [
-  { name: "A.J. Cole", team: "LV", y2025: 47.6, punts2025: 71, y2026: 63.3, punts2026: 3, yds2026: 190 },
-  { name: "Matt Araiza", team: "KC", y2025: 47.6, punts2025: 56, y2026: 54.5, punts2026: 4, yds2026: 218 },
-  { name: "Tommy Doman Jr.", team: "BUF", y2025: null, punts2025: 0, y2026: 48.0, punts2026: 4, yds2026: 192, note: "Rookie · TNF W2: 2/83 (41.5)" },
-  { name: "Logan Cooke", team: "JAX", y2025: 48.0, punts2025: 60, y2026: 54.0, punts2026: 2, yds2026: 108 },
-  { name: "Tress Way", team: "WAS", y2025: 47.3, punts2025: 56, y2026: 53.0, punts2026: 6, yds2026: 318 },
-  { name: "Blake Gillikin", team: "ARI", y2025: 51.7, punts2025: 22, y2026: 52.7, punts2026: 3, yds2026: 158 },
-  { name: "Rigoberto Sanchez", team: "IND", y2025: 48.8, punts2025: 44, y2026: 52.6, punts2026: 5, yds2026: 263 },
-  { name: "Kai Kroeger", team: "HOU", y2025: 44.8, punts2025: 56, y2026: 52.0, punts2026: 4, yds2026: 208 },
-  { name: "Braden Mann", team: "PHI", y2025: 49.9, punts2025: 72, y2026: 51.6, punts2026: 7, yds2026: 361 },
-  { name: "Ryan Rehkow", team: "CIN", y2025: 50.5, punts2025: 65, y2026: 51.0, punts2026: 1, yds2026: 51 },
-  { name: "JK Scott", team: "LAC", y2025: 47.9, punts2025: 60, y2026: 49.5, punts2026: 3, yds2026: 99 },
-  { name: "Sam Martin", team: "CAR", y2025: 47.2, punts2025: 56, y2026: 49.0, punts2026: 3, yds2026: 147 },
-  { name: "Ethan Evans", team: "LAR", y2025: 46.3, punts2025: 50, y2026: 48.3, punts2026: 3, yds2026: 145 },
-  { name: "Jake Bailey", team: "ATL", y2025: 47.7, punts2025: 63, y2026: 48.2, punts2026: 6, yds2026: 289 },
-  { name: "Bryan Anger", team: "DAL", y2025: 48.7, punts2025: 41, y2026: 48.0, punts2026: 2, yds2026: 96 },
-  { name: "Jack Fox", team: "DET", y2025: 46.6, punts2025: 56, y2026: 49.3, punts2026: 11, yds2026: 542, note: "TNF W2: 4/206 (51.5)" },
-  { name: "Ryan Wright", team: "NO", y2025: 49.0, punts2025: 65, y2026: 47.6, punts2026: 5, yds2026: 238 },
-  { name: "Ryan Eckley", team: "BAL", y2025: null, punts2025: 0, y2026: 46.7, punts2026: 3, yds2026: 140, note: "Rookie" },
-  { name: "Tommy Townsend", team: "TEN", y2025: 47.6, punts2025: 72, y2026: 46.6, punts2026: 7, yds2026: 326 },
-  { name: "Austin McNamara", team: "NYJ", y2025: 46.7, punts2025: 71, y2026: 46.3, punts2026: 3, yds2026: 139 },
-  { name: "Jordan Stout", team: "NYG", y2025: 50.1, punts2025: 53, y2026: 46.0, punts2026: 1, yds2026: 46 },
-  { name: "Bradley Pinion", team: "MIA", y2025: 45.1, punts2025: 64, y2026: 45.8, punts2026: 4, yds2026: 183 },
-  { name: "Corey Bojorquez", team: "CLE", y2025: 45.8, punts2025: 91, y2026: 43.3, punts2026: 3, yds2026: 130 },
-  { name: "Riley Dixon", team: "TB", y2025: 44.7, punts2025: 63, y2026: null, punts2026: 0, yds2026: 0, note: "No Week 1 punts listed" },
-  { name: "Bryce Baringer", team: "NE", y2025: 47.4, punts2025: 51, y2026: null, punts2026: 0, yds2026: 0, note: "Did not punt Week 1" }
+  { name: "Matt Araiza", team: "KC", y2025: 47.6, punts2025: 56, y2026: 55.6, punts2026: 7, yds2026: 389 },
+  { name: "A.J. Cole", team: "LV", y2025: 47.6, punts2025: 71, y2026: 51.2, punts2026: 12, yds2026: 614 },
+  { name: "Jordan Stout", team: "NYG", y2025: 50.1, punts2025: 53, y2026: 51.1, punts2026: 13, yds2026: 664, note: "W3: 12/618 (51.5)" },
+  { name: "Rigoberto Sanchez", team: "IND", y2025: 48.8, punts2025: 44, y2026: 50.9, punts2026: 8, yds2026: 407 },
+  { name: "Tress Way", team: "WAS", y2025: 47.3, punts2025: 56, y2026: 50.6, punts2026: 14, yds2026: 708 },
+  { name: "JK Scott", team: "LAC", y2025: 47.9, punts2025: 60, y2026: 50.2, punts2026: 11, yds2026: 502 },
+  { name: "Braden Mann", team: "PHI", y2025: 49.9, punts2025: 72, y2026: 49.1, punts2026: 13, yds2026: 638 },
+  { name: "Bryan Anger", team: "DAL", y2025: 48.7, punts2025: 41, y2026: 48.6, punts2026: 5, yds2026: 243 },
+  { name: "Tommy Doman Jr.", team: "BUF", y2025: null, punts2025: 0, y2026: 48.6, punts2026: 5, yds2026: 243, note: "Rookie" },
+  { name: "Logan Cooke", team: "JAX", y2025: 48.0, punts2025: 60, y2026: 48.3, punts2026: 9, yds2026: 435 },
+  { name: "Kai Kroeger", team: "HOU", y2025: 44.8, punts2025: 56, y2026: 48.3, punts2026: 14, yds2026: 676, note: "W3: 5/261 (52.2)" },
+  { name: "Jake Bailey", team: "ATL", y2025: 47.7, punts2025: 63, y2026: 48.3, punts2026: 11, yds2026: 531 },
+  { name: "Jack Fox", team: "DET", y2025: 46.6, punts2025: 56, y2026: 48.2, punts2026: 13, yds2026: 627 },
+  { name: "Tommy Townsend", team: "TEN", y2025: 47.6, punts2025: 72, y2026: 48.0, punts2026: 16, yds2026: 768 },
+  { name: "Sam Martin", team: "CAR", y2025: 47.2, punts2025: 56, y2026: 47.9, punts2026: 10, yds2026: 479 },
+  { name: "Corey Bojorquez", team: "CLE", y2025: 45.8, punts2025: 91, y2026: 47.6, punts2026: 12, yds2026: 571 },
+  { name: "Austin McNamara", team: "NYJ", y2025: 46.7, punts2025: 71, y2026: 47.2, punts2026: 13, yds2026: 613 },
+  { name: "Riley Dixon", team: "TB", y2025: 44.7, punts2025: 63, y2026: 47.1, punts2026: 13, yds2026: 612 },
+  { name: "Ethan Evans", team: "LAR", y2025: 46.3, punts2025: 50, y2026: 46.7, punts2026: 10, yds2026: 467 },
+  { name: "Blake Gillikin", team: "ARI", y2025: 51.7, punts2025: 22, y2026: 46.3, punts2026: 14, yds2026: 648 },
+  { name: "Ryan Eckley", team: "BAL", y2025: null, punts2025: 0, y2026: 45.9, punts2026: 9, yds2026: 413, note: "Rookie" },
+  { name: "Ryan Wright", team: "NO", y2025: 49.0, punts2025: 65, y2026: 44.3, punts2026: 11, yds2026: 487 },
+  { name: "Ryan Rehkow", team: "CIN", y2025: 50.5, punts2025: 65, y2026: 43.6, punts2026: 11, yds2026: 480 },
+  { name: "Bradley Pinion", team: "MIA", y2025: 45.1, punts2025: 64, y2026: 42.6, punts2026: 9, yds2026: 383 },
+  { name: "Bryce Baringer", team: "NE", y2025: 47.4, punts2025: 51, y2026: null, punts2026: 0, yds2026: 0, note: "Has not punted in 2026" }
 ];
 
 const OTHER = [
-  { name: "Corliss Waitman", team: "SF", nation: "Belgium / Suriname", y2025: 45.5, punts2025: 62, y2026: 47.0, punts2026: 2, yds2026: 94, note: "Does NOT count for USA" },
-  { name: "Daniel Whelan", team: "GB", nation: "Ireland", y2025: 51.7, punts2025: 49, y2026: 38.7, punts2026: 3, yds2026: 116, note: "Does NOT count for USA" }
+  { name: "Daniel Whelan", team: "GB", nation: "Ireland", y2025: 51.7, punts2025: 49, y2026: 49.3, punts2026: 14, yds2026: 690, note: "Does NOT count for USA" },
+  { name: "Corliss Waitman", team: "SF", nation: "Belgium / Suriname", y2025: 45.5, punts2025: 62, y2026: 47.4, punts2026: 7, yds2026: 332, note: "Does NOT count for USA" }
 ];
 
 const WEEK1 = { aus: "51.7", usa: "58.9", margin: "-7.2" };
-const WEEK2 = { aus: "", usa: "46.5", margin: "" };
+const WEEK2 = { aus: "49.2", usa: "54.8", margin: "-5.6" };
+const WEEK3 = { aus: "52.8", usa: "51.9", margin: "+0.9" };
 
 const ESPN_URLS = [
   "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2026/types/2/leaders?limit=100",
@@ -413,6 +413,9 @@ function seedOfficialWeeks() {
   all["aus-2"] = WEEK2.aus;
   all["usa-2"] = WEEK2.usa;
   all["margin-2"] = WEEK2.margin;
+  all["aus-3"] = WEEK3.aus;
+  all["usa-3"] = WEEK3.usa;
+  all["margin-3"] = WEEK3.margin;
   store.weeks = all;
 }
 
@@ -625,13 +628,13 @@ renderLists();
 renderWeeks();
 renderScore("2026");
 document.getElementById("status").textContent =
-  "Through TNF Week 2 (Bills 41, Lions 31). Season still Cole + Araiza vs Crawshaw + Taylor. Fox 49.3, Doman 48.0.";
+  "Through Week 3. Season: Araiza + Cole vs Taylor + Crawshaw. America leads; Australia took Week 3.";
 
 document.getElementById("refreshBtn").onclick = fetchLive;
 document.getElementById("use2026").onclick = () => {
   document.getElementById("minPunts").value = 2;
   renderScore("2026");
-  document.getElementById("status").textContent = "Showing 2026 season gross averages through TNF Week 2 (min 2 punts).";
+  document.getElementById("status").textContent = "Showing 2026 season gross averages through Week 3 (min 2 punts).";
 };
 document.getElementById("use2025").onclick = () => {
   document.getElementById("minPunts").value = 40;
