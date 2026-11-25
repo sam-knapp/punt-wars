@@ -1,0 +1,2674 @@
+[
+  {
+    "n": 1,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 1,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 1,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Coffee run, in the chat, after bedtime, all week: Loser pays for a large black coffee and posts the receipt before anyone has to ask. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a delivery to each league member's doorstep",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 2,
+    "input": {
+      "modes": [
+        "in-person"
+      ],
+      "durations": [
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 1,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person"
+      ],
+      "durations": [
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 1,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Coffee run: Loser buys a large black coffee and hands it to the winner at the driveway or the sideline. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a weird phrase or voice the loser must use for a while",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 3,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 1,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 1,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Winner's coffee run, on video: Loser orders the drink the winner names to the winner's door and films the drop from the sidewalk. Complete it before the next draft, and let the league track the result. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a small bit of public-space silliness that is lawful, brief, and easy to opt out of",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 4,
+    "input": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 1,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": true,
+      "maxPain": 1,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Coffee run, in the chat, quick: Loser pays for a large black coffee and posts the receipt before anyone has to ask. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a rule the loser must follow for a stretch of time, proven with check-ins",
+      "lean": "cash",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 5,
+    "input": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 1,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 1,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Coffee run, in the chat, after bedtime, all week: Loser pays for a large black coffee and posts the receipt before anyone has to ask. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a mini competition or dare against the clock",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 6,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 2,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 2,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "Winner's snack run, on video, all week: Loser orders the snacks the winner names for delivery to the winner and films the bags on the step. Keep it up every day until next Sunday. Send the video to the league chat. No cuts.",
+        "Winner's carpool, all week: Loser covers the carpool or practice run the winner picks. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's praise minute, on video, quick: Loser records three compliments the winner wrote as a voice note. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Winner's goodnight text: Loser says the exact sentence the winner writes out loud to every leaguemate at pickup or practice. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a ranking, list, or review the loser must publish to the league",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 7,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 2,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": false,
+      "maxPain": 2,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "Winner's snack run: Loser shows up to the next kids' practice with the snacks the winner names. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat.",
+        "$25 apology, after bedtime: Loser counts out $25 in singles, memo \"you were right\", on the winner's porch after the kids are down. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's praise minute, after bedtime, quick: Loser delivers three compliments the winner wrote on the porch after the kids are down. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's goodnight text, all week: Loser says the exact sentence the winner writes out loud to every leaguemate at pickup or practice. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a short performance for the league (a speech, a toast, a reading, a song)",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 8,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 2,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": true,
+      "maxPain": 2,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "$25 apology, on video, after bedtime, all week: Loser sends $25 with the memo \"you were right\" and films the payment screen. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Coffee run, on video: Loser orders a large black coffee to the winner's door and films the drop from the sidewalk. Complete it before the next draft, and let the league track the result. Send the video to the league chat. No cuts.",
+        "Goodnight text: Loser says \"good night, I love you and I'm sorry\" out loud to every leaguemate at pickup or practice. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's praise minute, in the chat: Loser posts three compliments the winner wrote as a voice note. It takes one outing. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a tiny awkward ceremony the winner presides over",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 9,
+    "input": {
+      "modes": [
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 2,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 2,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "Praise minute, on video, quick: Loser records one straight minute on why the winner's lineup was braver as a voice note. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Restock, on video, quick: Loser orders the winner's usual groceries and films the bags on the step. Finish it in under 15 minutes. Send the video to the league chat. No cuts.",
+        "Winner's $25 apology, on video, quick: Loser sends $25 with the memo the memo the winner writes and films the payment screen. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Goodnight text, on video: Loser texts each member of the group individually: \"good night, I love you and I'm sorry\". Complete it before the next draft, and let the league track the result. Every leaguemate gets it. Nobody is skipped."
+      ],
+      "twist": "a short performance for the league (a speech, a toast, a reading, a song)",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 10,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 2,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 2,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "Snack run, in the chat, after bedtime, all week: Loser posts a photo of goldfish, apples, and juice boxes, packed and labeled for the winner's kids. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "$25 apology: Loser counts out $25 in singles, memo \"you were right\", and hands it over at pickup. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's goodnight text, after bedtime: Loser says the exact sentence the winner writes on the winner's porch once the kids are down. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Praise minute, in the chat, after bedtime, quick: Loser posts one straight minute on why the winner's lineup was braver as a voice note. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a skill the loser is bad at, practiced on camera",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 11,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 1,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Winner's coffee run, after bedtime: Loser buys the drink the winner names and leaves it on the winner's porch once the kids are down. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat.",
+        "$25 apology, on video, after bedtime: Loser sends $25 with the memo \"you were right\" and films the payment screen. Complete it before the next draft, and let the league track the result. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "an item the loser wears or carries around all day",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 12,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 5,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": true,
+      "maxPain": 1,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Coffee run, on video, after bedtime, all week: Loser orders a large black coffee to the winner's door and films the drop from the sidewalk. Keep it up every day until next Sunday. Send the video to the league chat. No cuts.",
+        "Snack run, on video, after bedtime: Loser orders goldfish, apples, and juice boxes for delivery to the winner and films the bags on the step. It takes one outing. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a confession, apology, or compliment in an unexpectedly formal format",
+      "lean": "chores",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 13,
+    "input": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 1,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 1,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Coffee run, in the chat, all week: Loser pays for a large black coffee and posts the receipt before anyone has to ask. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "something that happens at a grocery store or hardware store",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 14,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 2,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 4,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Winner's snack run: Loser shows up to the next kids' practice with the snacks the winner names. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's $25 apology, on video: Loser sends $25 with the memo the memo the winner writes and films the payment screen. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run, on video: Loser orders the drink the winner names to the winner's door and films the drop from the sidewalk. It takes one outing. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a skill the loser is bad at, practiced on camera",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 15,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 4,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 2,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "$25 apology, on video, after bedtime: Loser sends $25 with the memo \"you were right\" and films the payment screen. Complete it before the next draft, and let the league track the result. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run, in the chat, after bedtime: Loser pays for the drink the winner names and posts the receipt before anyone has to ask. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Snack run, after bedtime: Loser packs goldfish, apples, and juice boxes into the winner's snack bin and leaves it for the morning. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a mini competition or dare against the clock",
+      "lean": "chores",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 16,
+    "input": {
+      "modes": [
+        "in-person"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": true,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 2,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": true,
+      "maxPain": 1,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Mr. Week 12, dad calendar pose: A leaguemate shoots Loser in a fully clothed dad-calendar pose holding a rotisserie chicken, with moody lighting and a month caption. The photo goes in the league chat.",
+        "Romance novel cover shoot: Winner picks the title and the fully clothed costume. A leaguemate shoots Loser on a windswept romance-novel cover pose, and the photo goes in the league chat.",
+        "Goodnight text, all week: Loser says \"good night, I love you and I'm sorry\" out loud to every leaguemate at pickup or practice. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's snack run: Loser shows up to the next kids' practice with the snacks the winner names. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a weird phrase or voice the loser must use for a while",
+      "lean": "chores",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 17,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 1,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 2,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Winner's $25 apology, in the chat, quick: Loser sends $25 with the memo the memo the winner writes and posts the screenshot. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run: Loser buys the drink the winner names and hands it to the winner at the driveway or the sideline. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a neighborhood landmark, park, or street",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 18,
+    "input": {
+      "modes": [
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 1,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 4,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "$25 apology, on video, after bedtime, quick: Loser sends $25 with the memo \"you were right\" and films the payment screen. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run, on video, all week: Loser orders the drink the winner names to the winner's door and films the drop from the sidewalk. Keep it up every day until next Sunday. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a handwritten or hand-made object delivered to the winner",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 19,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 2,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": false,
+      "maxPain": 3,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "$25 apology: Loser counts out $25 in singles, memo \"you were right\", and hands it over at pickup. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's snack run, in the chat, after bedtime: Loser posts a photo of the snacks the winner names, packed and labeled for the winner's kids. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Winner's praise minute, in the chat, after bedtime: Loser posts three compliments the winner wrote as a voice note. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Restock, after bedtime: Loser runs the winner's dishwasher and wipes the counters once the kids are down. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a short performance for the league (a speech, a toast, a reading, a song)",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 20,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 4,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": true,
+      "maxPain": 1,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "Breakup letter to a benched player: Loser reads a tearful soap-opera breakup letter to the player who burned him this week, in one uncut video. The video goes in the league chat.",
+        "Worst pickup line of the day: All week, Loser posts his single worst pickup line in the league chat each morning, a little worse every day. The winner rates the set out of 10 on Sunday with a screenshot.",
+        "Winner's coffee run, on video, after bedtime, quick: Loser orders the drink the winner names to the winner's door and films the drop from the sidewalk. Finish it in under 15 minutes. Send the video to the league chat. No cuts.",
+        "Portrait attempt, on video, after bedtime, quick: Loser draws or paints a genuine best-effort portrait of the winner while on a video call with the league. Finish it in under 15 minutes. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a weird phrase or voice the loser must use for a while",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 21,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 3,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 3,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "Winner's $25 apology, after bedtime, quick: Loser counts out $25 in singles, memo the memo the winner writes, on the winner's porch after the kids are down. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Praise minute, in the chat, quick: Loser posts one straight minute on why the winner's lineup was braver as a voice note. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Restock, in the chat: Loser posts the receipt for a full restock of the winner's snack bin. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Winner's goodnight text: Loser says the exact sentence the winner writes out loud to every leaguemate at pickup or practice. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a rule the loser must follow for a stretch of time, proven with check-ins",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 22,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 3,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": false,
+      "maxPain": 3,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "Winner's $25 apology, after bedtime, quick: Loser counts out $25 in singles, memo the memo the winner writes, on the winner's porch after the kids are down. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's praise minute, on video, after bedtime, all week: Loser records three compliments the winner wrote as a voice note. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run, after bedtime: Loser buys the drink the winner names and leaves it on the winner's porch once the kids are down. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Snack run, on video, after bedtime, quick: Loser orders goldfish, apples, and juice boxes for delivery to the winner and films the bags on the step. Finish it in under 15 minutes. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a task done for the winner, in the winner's style",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 23,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 3,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 3,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "$25 apology, on video, quick: Loser sends $25 with the memo \"you were right\" and films the payment screen. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Restock, in the chat, quick: Loser posts the receipt for a full restock of the winner's snack bin. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Portrait attempt, in the chat, quick: Loser draws or paints a genuine best-effort portrait of the winner and posts the finished picture. Finish it in under 15 minutes. Post the proof in the league chat and leave it up.",
+        "Snack run, on video, all week: Loser orders goldfish, apples, and juice boxes for delivery to the winner and films the bags on the step. Keep it up every day until next Sunday. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a short performance for the league (a speech, a toast, a reading, a song)",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 24,
+    "input": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 3,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": true,
+      "maxPain": 3,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "Worst pickup line of the day: All week, Loser posts his single worst pickup line in the league chat each morning, a little worse every day. The winner rates the set out of 10 on Sunday with a screenshot.",
+        "Restock, on video: Loser orders the winner's usual groceries and films the bags on the step. It takes one outing. Send the video to the league chat. No cuts.",
+        "Goodnight text, in the chat, after bedtime, all week: Loser posts \"good night, I love you and I'm sorry\" with no emojis and no follow-up joke. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Winner's balloon keepy-uppies, on video, after bedtime, all week: Loser films 100 keepy-uppies with a balloon. The winner picks the forfeit word you shout at the end. Keep it up every day until next Sunday. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a small bit of public-space silliness that is lawful, brief, and easy to opt out of",
+      "lean": "cash",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 25,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 3,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 3,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "Portrait attempt, after bedtime, all week: Loser draws or paints a genuine best-effort portrait of the winner at the winner's house after the kids are down. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's restock, after bedtime: Loser does the after-bedtime kitchen reset the winner describes. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat.",
+        "$25 apology, in the chat, after bedtime: Loser sends $25 with the memo \"you were right\" and posts the screenshot. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run, in the chat, after bedtime, quick: Loser pays for the drink the winner names and posts the receipt before anyone has to ask. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "something that happens at a grocery store or hardware store",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 26,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 1,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 3,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Winner's profile pic, in the chat, after bedtime: Loser sets a profile photo the winner picks and leaves it up where the league can see it. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run, in the chat, after bedtime, all week: Loser pays for the drink the winner names and posts the receipt before anyone has to ask. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "$25 apology, in the chat, all week: Loser sends $25 with the memo \"you were right\" and posts the screenshot. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a mini competition or dare against the clock",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 27,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 3,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 1,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Fight song, on video, after bedtime, all week: Loser sings the winner's fight song and films the whole verse. Keep it up every day until next Sunday. Send the video to the league chat. No cuts.",
+        "Winner's coffee run, after bedtime, all week: Loser buys the drink the winner names and leaves it on the winner's porch once the kids are down. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Portrait attempt, on video, quick: Loser draws or paints a genuine best-effort portrait of the winner while on a video call with the league. Finish it in under 15 minutes. Send the video to the league chat. No cuts.",
+        "Snack run, on video, all week: Loser orders goldfish, apples, and juice boxes for delivery to the winner and films the bags on the step. Keep it up every day until next Sunday. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a rule the loser must follow for a stretch of time, proven with check-ins",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 28,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 5,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": true,
+      "maxPain": 3,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "$25 apology, on video, after bedtime: Loser sends $25 with the memo \"you were right\" and films the payment screen. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Winner's snack run, after bedtime: Loser packs the snacks the winner names into the winner's snack bin and leaves it for the morning. It takes one outing. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's coffee run, on video, after bedtime: Loser orders the drink the winner names to the winner's door and films the drop from the sidewalk. It takes one outing. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a weird phrase or voice the loser must use for a while",
+      "lean": "chores",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 29,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 5,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 1,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "Goodnight text, on video: Loser texts each member of the group individually: \"good night, I love you and I'm sorry\". Complete it before the next draft, and let the league track the result. Every leaguemate gets it. Nobody is skipped.",
+        "Snack run: Loser shows up to the next kids' practice with goldfish, apples, and juice boxes. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Coffee run, in the chat, after bedtime, quick: Loser pays for a large black coffee and posts the receipt before anyone has to ask. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Portrait attempt, after bedtime, quick: Loser draws or paints a genuine best-effort portrait of the winner at the winner's house after the kids are down. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a tiny awkward ceremony the winner presides over",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 30,
+    "input": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 3,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "Coffee run, in the chat, quick: Loser pays for a large black coffee and posts the receipt before anyone has to ask. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Winner's goodnight text, in the chat, after bedtime, all week: Loser posts the exact sentence the winner writes with no emojis and no follow-up joke. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Winner's snack run, in the chat, all week: Loser posts a photo of the snacks the winner names, packed and labeled for the winner's kids. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Winner's $25 apology, in the chat, after bedtime, all week: Loser sends $25 with the memo the memo the winner writes and posts the screenshot. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a tiny awkward ceremony the winner presides over",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 31,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 5,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": false,
+      "maxPain": 2,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "Winner's coffee run, in the chat, after bedtime, quick: Loser pays for the drink the winner names and posts the receipt before anyone has to ask. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Winner's praise minute, on video, after bedtime, quick: Loser records three compliments the winner wrote as a voice note. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Peeled dozen, after bedtime, all week: Loser hard-boils, peels, and hand-delivers 12 eggs. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's goodnight text, in the chat, after bedtime, quick: Loser posts the exact sentence the winner writes with no emojis and no follow-up joke. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a handwritten or hand-made object delivered to the winner",
+      "lean": "cash",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 32,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 4,
+        "embarrassment": 2
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": true,
+      "maxPain": 4,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 2,
+      "inspiration": [
+        "Winner's goodnight text, on video, quick: Loser texts each member of the group individually: the exact sentence the winner writes. Finish it in under 15 minutes. Every leaguemate gets it. Nobody is skipped.",
+        "Winner's snack run, on video, after bedtime, quick: Loser orders the snacks the winner names for delivery to the winner and films the bags on the step. Finish it in under 15 minutes. Send the video to the league chat. No cuts.",
+        "Praise minute, after bedtime, all week: Loser delivers one straight minute on why the winner's lineup was braver on the porch after the kids are down. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's restock, on video, after bedtime: Loser orders the groceries the winner lists and films the delivery on the step. Complete it before the next draft, and let the league track the result. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a weird phrase or voice the loser must use for a while",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 33,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 2,
+        "difficulty": 3,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 2,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Winner's snack run, after bedtime: Loser packs the snacks the winner names into the winner's snack bin and leaves it for the morning. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat.",
+        "$25 apology, after bedtime: Loser counts out $25 in singles, memo \"you were right\", on the winner's porch after the kids are down. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Fight song, after bedtime, quick: Loser sings the winner's fight song in the yard once the kids are down. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Coffee run, in the chat, after bedtime: Loser pays for a large black coffee and posts the receipt before anyone has to ask. Complete it before the next draft, and let the league track the result. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "an item the loser wears or carries around all day",
+      "lean": "cash",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 34,
+    "input": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 5,
+        "embarrassment": 1
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 1,
+      "inspiration": [
+        "Winner's snack run, in the chat, after bedtime, quick: Loser posts a photo of the snacks the winner names, packed and labeled for the winner's kids. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "$25 apology, in the chat, after bedtime, quick: Loser sends $25 with the memo \"you were right\" and posts the screenshot. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run, in the chat, quick: Loser pays for the drink the winner names and posts the receipt before anyone has to ask. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a short performance for the league (a speech, a toast, a reading, a song)",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 35,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 1,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 1,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Lineup transaction, on video: Loser gives the winner control of one waiver pickup the winner chooses for next week and confirms it by text. Complete it before the next draft, and let the league track the result. Leave it in the league chat so the whole league sees it.",
+        "Winner's $25 apology, all week: Loser counts out $25 in singles, memo the memo the winner writes, and hands it over at pickup. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's coffee run, on video: Loser orders the drink the winner names to the winner's door and films the drop from the sidewalk. Complete it before the next draft, and let the league track the result. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a tiny awkward ceremony the winner presides over",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 36,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 1,
+        "difficulty": 5,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": true,
+      "maxPain": 1,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Season-long dad calendar: Before the next draft, Loser stages twelve fully clothed dad-calendar poses with a leaguemate photographer. He prints a calendar for every league member, and photos of each month go in the league chat.",
+        "Worst pickup line of the day: All week, Loser posts his single worst pickup line in the league chat each morning, a little worse every day. The winner rates the set out of 10 on Sunday with a screenshot.",
+        "Winner's coffee run, on video, after bedtime, all week: Loser orders the drink the winner names to the winner's door and films the drop from the sidewalk. Keep it up every day until next Sunday. Send the video to the league chat. No cuts.",
+        "Snack run, on video, after bedtime: Loser orders goldfish, apples, and juice boxes for delivery to the winner and films the bags on the step. Complete it before the next draft, and let the league track the result. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a confession, apology, or compliment in an unexpectedly formal format",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 37,
+    "input": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 3,
+        "difficulty": 3,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 3,
+      "maxDifficulty": 3,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Winner's goodnight text, in the chat, all week: Loser posts the exact sentence the winner writes with no emojis and no follow-up joke. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Winner's portrait attempt, in the chat, after bedtime, quick: Loser draws or paints a pose or style the winner picks and posts the finished picture. Finish it in under 15 minutes. Post the proof in the league chat and leave it up.",
+        "$25 apology, in the chat, after bedtime, quick: Loser sends $25 with the memo \"you were right\" and posts the screenshot. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Coffee run, in the chat, all week: Loser pays for a large black coffee and posts the receipt before anyone has to ask. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a task done for the winner, in the winner's style",
+      "lean": "chores",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 38,
+    "input": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 2,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 2,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Winner's praise minute, on video, after bedtime, all week: Loser records three compliments the winner wrote as a voice note. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Fight song, on video, after bedtime, quick: Loser sings the winner's fight song and films the whole verse. Finish it in under 15 minutes. Send the video to the league chat. No cuts.",
+        "Snack run, in the chat, after bedtime, quick: Loser posts a photo of goldfish, apples, and juice boxes, packed and labeled for the winner's kids. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Winner's lineup transaction, on video, after bedtime, quick: Loser gives the winner control of a waiver pickup or trade the winner chooses for next week and confirms it by text. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a neighborhood landmark, park, or street",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 39,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 4,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 4,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Winner's portrait attempt, in the chat, quick: Loser draws or paints a pose or style the winner picks and posts the finished picture. Finish it in under 15 minutes. Post the proof in the league chat and leave it up.",
+        "Winner's snack run, in the chat, quick: Loser posts a photo of the snacks the winner names, packed and labeled for the winner's kids. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Peeled dozen, quick: Loser hard-boils, peels, and hand-delivers 12 eggs. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's restock, on video, all week: Loser orders the groceries the winner lists and films the delivery on the step. Keep it up every day until next Sunday. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a short performance for the league (a speech, a toast, a reading, a song)",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 40,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 4,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": true,
+      "maxPain": 4,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Fully clothed thirst trap: Loser takes a deliberately ridiculous thirst-trap photo: oversized sweater, dramatic flex, soulful stare. The league rates it out of 10 in the league chat.",
+        "Mr. Week 12, dad calendar pose: A leaguemate shoots Loser in a fully clothed dad-calendar pose holding a rotisserie chicken, with moody lighting and a month caption. The photo goes in the league chat.",
+        "Portrait attempt, in the chat: Loser draws or paints a genuine best-effort portrait of the winner and posts the finished picture. It takes one outing. Post the proof in the league chat and leave it up.",
+        "$25 apology, in the chat, quick: Loser sends $25 with the memo \"you were right\" and posts the screenshot. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "an item the loser wears or carries around all day",
+      "lean": "chores",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 41,
+    "input": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 4,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 4,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Winner's $25 apology, on video: Loser sends $25 with the memo the memo the winner writes and films the payment screen. Complete it before the next draft, and let the league track the result. Leave it in the league chat so the whole league sees it.",
+        "Coffee run, on video: Loser orders a large black coffee to the winner's door and films the drop from the sidewalk. Complete it before the next draft, and let the league track the result. Send the video to the league chat. No cuts.",
+        "Lineup transaction, on video: Loser gives the winner control of one waiver pickup the winner chooses for next week and confirms it by text. Complete it before the next draft, and let the league track the result. Leave it in the league chat so the whole league sees it.",
+        "Portrait attempt, in the chat, quick: Loser draws or paints a genuine best-effort portrait of the winner and posts the finished picture. Finish it in under 15 minutes. Post the proof in the league chat and leave it up."
+      ],
+      "twist": "a handwritten or hand-made object delivered to the winner",
+      "lean": "cash",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 42,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 4,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": false,
+      "maxPain": 4,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Winner's $25 apology, after bedtime, quick: Loser counts out $25 in singles, memo the memo the winner writes, on the winner's porch after the kids are down. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Lineup transaction, in the chat: Loser gives the winner control of one waiver pickup the winner chooses for next week and posts the transaction in the league chat. Complete it before the next draft, and let the league track the result. Leave it in the league chat so the whole league sees it.",
+        "Winner's balloon keepy-uppies, on video, after bedtime, quick: Loser films 100 keepy-uppies with a balloon. The winner picks the forfeit word you shout at the end. Finish it in under 15 minutes. Send the video to the league chat. No cuts.",
+        "Winner's restock, after bedtime: Loser does the after-bedtime kitchen reset the winner describes. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a small bit of public-space silliness that is lawful, brief, and easy to opt out of",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 43,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": true,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 4,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": false,
+      "maxPain": 4,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Portrait attempt, quick: Loser draws or paints a genuine best-effort portrait of the winner at the next practice or pickup. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's snack run, quick: Loser shows up to the next kids' practice with the snacks the winner names. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "$25 apology, in the chat, all week: Loser sends $25 with the memo \"you were right\" and posts the screenshot. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Winner's lineup transaction, in the chat, quick: Loser gives the winner control of a waiver pickup or trade the winner chooses for next week and posts the transaction in the league chat. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a delivery to each league member's doorstep",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 44,
+    "input": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "week"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 4,
+        "embarrassment": 3
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "online"
+      ],
+      "durations": [
+        "week"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": true,
+      "maxPain": 5,
+      "maxDifficulty": 4,
+      "maxEmbarrassment": 3,
+      "inspiration": [
+        "Worst pickup line of the day: All week, Loser posts his single worst pickup line in the league chat each morning, a little worse every day. The winner rates the set out of 10 on Sunday with a screenshot.",
+        "Winner's snack run, in the chat, after bedtime, all week: Loser posts a photo of the snacks the winner names, packed and labeled for the winner's kids. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Praise minute, in the chat, after bedtime, all week: Loser posts one straight minute on why the winner's lineup was braver as a voice note. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Winner's coffee run, after bedtime, all week: Loser buys the drink the winner names and leaves it on the winner's porch once the kids are down. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a weird phrase or voice the loser must use for a while",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 45,
+    "input": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": true,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 4,
+        "difficulty": 5,
+        "embarrassment": 4
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "online"
+      ],
+      "durations": [
+        "errand",
+        "season"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": true,
+      "friendsOnly": false,
+      "maxPain": 4,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 4,
+      "inspiration": [
+        "Winner's praise minute, in the chat: Loser posts three compliments the winner wrote as a voice note. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "$25 apology, in the chat: Loser sends $25 with the memo \"you were right\" and posts the screenshot. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Winner's snack run, in the chat: Loser posts a photo of the snacks the winner names, packed and labeled for the winner's kids. It takes one outing. Leave it in the league chat so the whole league sees it.",
+        "Portrait attempt, in the chat: Loser draws or paints a genuine best-effort portrait of the winner and posts the finished picture. Complete it before the next draft, and let the league track the result. Post the proof in the league chat and leave it up."
+      ],
+      "twist": "a task done for the winner, in the winner's style",
+      "lean": "sweat",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 46,
+    "input": {
+      "modes": [
+        "in-person"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 5,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "$25 apology, quick: Loser counts out $25 in singles, memo \"you were right\", and hands it over at pickup. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Lineup transaction, after bedtime, quick: Loser gives the winner control of one waiver pickup the winner chooses for next week and accepts the decision at the next meetup. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Diet Coke shotgun: Loser shotguns a Diet Coke in front of a leaguemate once the kids are down. The burp counts. Finish it in under 15 minutes. A leaguemate has to be there, and the clip goes in the league chat.",
+        "Restock, after bedtime, all week: Loser runs the winner's dishwasher and wipes the counters once the kids are down. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "a handwritten or hand-made object delivered to the winner",
+      "lean": "shame",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 47,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 5,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "week"
+      ],
+      "kids": [
+        "around",
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Winner's portrait attempt, after bedtime, quick: Loser draws or paints a pose or style the winner picks at the winner's house after the kids are down. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Sideline outfit, quick: Loser wears the winner's rival jersey to a kids' sporting event. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Winner's restock, in the chat, all week: Loser posts the receipt for the grocery list the winner wrote. Keep it up every day until next Sunday. Leave it in the league chat so the whole league sees it.",
+        "Fight song, after bedtime, quick: Loser sings the winner's fight song in the yard once the kids are down. Finish it in under 15 minutes. A leaguemate has to be there, and the photo goes in the league chat."
+      ],
+      "twist": "something that happens at a grocery store or hardware store",
+      "lean": "chores",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 48,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": true,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 5,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": true,
+      "maxPain": 5,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Winner’s roast, read with feeling: Winner writes five lines of trash talk about Loser, and Loser reads them aloud with real feeling in one uncut video. The video goes in the league chat.",
+        "Breakup letter to a benched player: Loser reads a tearful soap-opera breakup letter to the player who burned him this week, in one uncut video. The video goes in the league chat.",
+        "Snack run, in the chat: Loser posts a photo of goldfish, apples, and juice boxes, packed and labeled for the winner's kids. Complete it before the next draft, and let the league track the result. Leave it in the league chat so the whole league sees it.",
+        "Winner's restock, on video, all week: Loser orders the groceries the winner lists and films the delivery on the step. Keep it up every day until next Sunday. Send the video to the league chat. No cuts."
+      ],
+      "twist": "a weird phrase or voice the loser must use for a while",
+      "lean": "cash",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 49,
+    "input": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 5,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "in-person",
+        "remote"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "around"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Portrait attempt: Loser draws or paints a genuine best-effort portrait of the winner at the next practice or pickup. Complete it before the next draft, and let the league track the result. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Sideline outfit, all week: Loser wears the winner's rival jersey to a kids' sporting event. Keep it up every day until next Sunday. A leaguemate has to be there, and the photo goes in the league chat.",
+        "Restock, on video, quick: Loser orders the winner's usual groceries and films the bags on the step. Finish it in under 15 minutes. Send the video to the league chat. No cuts.",
+        "Praise minute, on video: Loser records one straight minute on why the winner's lineup was braver as a voice note. It takes one outing. Leave it in the league chat so the whole league sees it."
+      ],
+      "twist": "a neighborhood landmark, park, or street",
+      "lean": "social",
+      "doNotRepeat": []
+    }
+  },
+  {
+    "n": 50,
+    "input": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerPicks": false,
+      "cheeky": false,
+      "ceilings": {
+        "pain": 5,
+        "difficulty": 5,
+        "embarrassment": 5
+      },
+      "avoidLabels": []
+    },
+    "message": {
+      "modes": [
+        "remote",
+        "online"
+      ],
+      "durations": [
+        "quick",
+        "errand",
+        "week",
+        "season"
+      ],
+      "kids": [
+        "bedtime"
+      ],
+      "winnerFillsIn": false,
+      "friendsOnly": false,
+      "maxPain": 5,
+      "maxDifficulty": 5,
+      "maxEmbarrassment": 5,
+      "inspiration": [
+        "Winner's balloon keepy-uppies, on video, after bedtime: Loser films 1,000 keepy-uppies with a balloon. The winner picks the forfeit word you shout at the end. It takes one outing. Send the video to the league chat. No cuts.",
+        "Portrait attempt, in the chat, after bedtime, quick: Loser draws or paints a genuine best-effort portrait of the winner and posts the finished picture. Finish it in under 15 minutes. Post the proof in the league chat and leave it up.",
+        "Winner's praise minute, on video, after bedtime, quick: Loser records three compliments the winner wrote as a voice note. Finish it in under 15 minutes. Leave it in the league chat so the whole league sees it.",
+        "Restock, on video, after bedtime, quick: Loser orders the winner's usual groceries and films the bags on the step. Finish it in under 15 minutes. Send the video to the league chat. No cuts."
+      ],
+      "twist": "something that happens at a grocery store or hardware store",
+      "lean": "chores",
+      "doNotRepeat": []
+    }
+  }
+]
